@@ -1,5 +1,5 @@
 // src/middleware.ts
-import { auth } from "@/lib/auth";
+export const runtime = "nodejs";`nimport { auth } from "@/lib/auth";
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 

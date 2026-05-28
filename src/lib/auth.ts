@@ -1,5 +1,5 @@
 // src/lib/auth.ts
-import NextAuth from "next-auth";
+export const runtime = "nodejs";`nimport NextAuth from "next-auth";
 import { PrismaAdapter } from "@auth/prisma-adapter";
 import Google from "next-auth/providers/google";
 import Credentials from "next-auth/providers/credentials";

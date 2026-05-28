@@ -650,7 +650,7 @@ async function main() {
         order: 3,
       },
     ],
-    skipDuplicates: true,
+    
   });
 
   console.log("✅ 3 banners criados");
